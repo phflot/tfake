@@ -42,7 +42,7 @@ This dataset and the landmarking methods are licensed under the [Attribution-Non
 
 If you use this code for your own work, please cite our paper:
   
-> P. Flotho, M. Piening, A. Kukleva and G. Steidl, “T-FAKE: Synthesizing Thermal Images for Facial Landmarking,” arxiv, 2024. [doi:https://doi.org/](https://doi.org/)
+> P. Flotho, M. Piening, A. Kukleva and G. Steidl, “T-FAKE: Synthesizing Thermal Images for Facial Landmarking,” arxiv, 2024. [doi:10.48550/arXiv.2408.15127](https://doi.org/10.48550/arXiv.2408.15127)
 
 BibTeX entry
 ```
@@ -50,7 +50,7 @@ BibTeX entry
     author = {Flotho, P. and Piening, M. and Kukleva, A. and Steidl, G.},
     title = {T-FAKE: Synthesizing Thermal Images for Facial Landmarking},
     year = {2024},
-  journal = {arxiv},
-  doi = {https://doi.org/}
+    journal = {arXiv preprint arXiv:2408.15127},
+    doi = {https://doi.org/10.48550/arXiv.2408.15127}
 }
 ```
