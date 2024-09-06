@@ -5,7 +5,7 @@
 
 ## Downloading the dataset
 
-To download the color images for the dataset, please use the links in the [FaceSynthetics repository](https://github.com/microsoft/FaceSynthetics).
+To download the color images, sparse annotations, and segmentation masks for the dataset, please use the links in the [FaceSynthetics repository](https://github.com/microsoft/FaceSynthetics).
 
 Our dataset has been generated for a warm and for a cold condition. Each dataset can be downloaded separately as
 
