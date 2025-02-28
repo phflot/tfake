@@ -26,6 +26,21 @@ The models for the thermalization as well as the landmarkers can be downloaded f
 
 ### Thermalization
 
+Our baseline U-Net translation model is imported from [segmentation_models_pytorch](https://segmentation-modelspytorch.readthedocs.io/en/latest/) library. Specifically, we define the translator as follows:  
+
+```python
+import segmentation_models_pytorch as smp
+
+translator = smp.Unet(
+    encoder_name="resnet34",        
+    encoder_weights="imagenet",     
+    in_channels=3,                  
+    classes=1,                      
+    activation="sigmoid"
+)
+```
+
+This model is based on a U-Net architecture with a ResNet-34 encoder pre-trained on ImageNet. It takes three-channel input images and outputs a single-channel segmentation mask with a sigmoid activation function.
 
 ### Landmarking
 
