@@ -40,7 +40,7 @@ translator = smp.Unet(
 )
 ```
 
-This model is based on a U-Net architecture with a ResNet-34 encoder pre-trained on ImageNet. It takes three-channel RGB input images and outputs a single-channel thermal image with a sigmoid activation function.
+This model is based on a U-Net architecture with a ResNet-34 encoder pre-trained on ImageNet. It takes three-channel RGB input images and outputs a single-channel thermal image with a sigmoid activation function. For training progress of the thermalization model see [ThermalizationCode/ThermalizerOutput.ipynb](https://github.com/phflot/tfake/blob/main/ThermalizationCode/ThermalizerOutput.ipynb).
 
 ### Landmarking
 
