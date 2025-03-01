@@ -44,6 +44,8 @@ This model is based on a U-Net architecture with a ResNet-34 encoder pre-trained
 
 ### Landmarking
 
+Will be added soon.
+
 ## Running the benchmark
 
 To run the benchmark, you have to download the [CHARLOTTE ThermalFace dataset](https://github.com/TeCSAR-UNCC/UNCC-ThermalFace). 
