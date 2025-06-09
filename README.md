@@ -59,15 +59,16 @@ This dataset and the landmarking methods are licensed under the [Attribution-Non
 
 If you use this code for your own work, please cite our paper:
   
-> P. Flotho, M. Piening, A. Kukleva and G. Steidl, “T-FAKE: Synthesizing Thermal Images for Facial Landmarking,” arxiv, 2024. [doi:10.48550/arXiv.2408.15127](https://doi.org/10.48550/arXiv.2408.15127)
+> P. Flotho, M. Piening, A. Kukleva and G. Steidl, “T-FAKE: Synthesizing Thermal Images for Facial Landmarking,” Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2025. [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Flotho_T-FAKE_Synthesizing_Thermal_Images_for_Facial_Landmarking_CVPR_2025_paper.html)
 
 BibTeX entry
 ```
-@article{flotea2024a,
-    author = {Flotho, P. and Piening, M. and Kukleva, A. and Steidl, G.},
-    title = {T-FAKE: Synthesizing Thermal Images for Facial Landmarking},
-    year = {2024},
-    journal = {arXiv preprint arXiv:2408.15127},
-    doi = {https://doi.org/10.48550/arXiv.2408.15127}
+@InProceedings{tfake2025_CVPR,
+    author    = {Flotho, Philipp and Piening, Moritz and Kukleva, Anna and Steidl, Gabriele},
+    title     = {T-FAKE: Synthesizing Thermal Images for Facial Landmarking},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {26356-26366}
 }
 ```
