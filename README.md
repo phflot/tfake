@@ -40,7 +40,7 @@ landmarks, confidences = landmarker.process(image)
 
 ## Pre-trained models
 
-The models for the thermalization as well as the landmarkers can be downloaded from [here](https://drive.google.com/drive/folders/1-ppKS4xuBY-EbmGCkvKTLYMXHA3lK8R8?usp=sharing).
+The models for the thermalization can be downloaded from [here](https://drive.google.com/drive/folders/1-ppKS4xuBY-EbmGCkvKTLYMXHA3lK8R8?usp=sharing).
 
 ### Thermalization
 
@@ -60,9 +60,6 @@ translator = smp.Unet(
 
 This model is based on a U-Net architecture with a ResNet-34 encoder pre-trained on ImageNet. It takes three-channel RGB input images and outputs a single-channel thermal image with a sigmoid activation function. For training progress of the thermalization model see [ThermalizationCode/ThermalizerOutput.ipynb](https://github.com/phflot/tfake/blob/main/ThermalizationCode/ThermalizerOutput.ipynb).
 
-### Landmarking
-
-Will be added soon.
 
 ## Running the benchmark
 
