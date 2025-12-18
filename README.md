@@ -16,8 +16,26 @@ Our dataset has been generated for a warm and for a cold condition. Each dataset
 
 ## Using the landmarker
 
-Coming soon.
+A landmarker trained on the T-FAKE dataset is available via pip and from this repository: [thermal-face-alignment](https://github.com/openscivision/thermal-face-alignment).
 
+Install and run:
+
+```bash
+pip install thermal-face-alignment
+```
+
+```python
+import cv2
+from tfan import ThermalLandmarks
+
+# Read a thermal image, normalized grayscale or temperature values:
+image = cv2.imread("thermal.png", cv2.IMREAD_GRAYSCALE)
+
+# Initialize landmarker (downloads weights on first use)
+landmarker = ThermalLandmarks(device="cpu", n_landmarks=478)
+
+landmarks, confidences = landmarker.process(image)
+```
 ![landmarks](img/landmarks.jpg)
 
 ## Pre-trained models
